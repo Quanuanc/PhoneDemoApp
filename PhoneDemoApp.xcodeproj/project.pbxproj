@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1421EDBC2BE3E5F500D41099 /* SubscriptionOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1421EDBB2BE3E5F500D41099 /* SubscriptionOptionsView.swift */; };
 		149EE2DD2BE2939600C89174 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149EE2DC2BE2939600C89174 /* WhatsNewView.swift */; };
 		14A2A3F02BE2919D00391114 /* PhoneDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */; };
 		14A2A3F22BE2919D00391114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A3F12BE2919D00391114 /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1421EDBB2BE3E5F500D41099 /* SubscriptionOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionOptionsView.swift; sourceTree = "<group>"; };
 		149EE2DC2BE2939600C89174 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 		14A2A3EC2BE2919D00391114 /* PhoneDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDemoAppApp.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 			isa = PBXGroup;
 			children = (
 				149EE2DC2BE2939600C89174 /* WhatsNewView.swift */,
+				1421EDBB2BE3E5F500D41099 /* SubscriptionOptionsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1421EDBC2BE3E5F500D41099 /* SubscriptionOptionsView.swift in Sources */,
 				14A2A3F22BE2919D00391114 /* ContentView.swift in Sources */,
 				14A2A3F02BE2919D00391114 /* PhoneDemoAppApp.swift in Sources */,
 				149EE2DD2BE2939600C89174 /* WhatsNewView.swift in Sources */,
