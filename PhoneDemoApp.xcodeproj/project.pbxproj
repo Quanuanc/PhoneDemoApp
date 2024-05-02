@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149EE2DD2BE2939600C89174 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149EE2DC2BE2939600C89174 /* WhatsNewView.swift */; };
 		14A2A3F02BE2919D00391114 /* PhoneDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */; };
 		14A2A3F22BE2919D00391114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A3F12BE2919D00391114 /* ContentView.swift */; };
 		14A2A3F42BE2919E00391114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A2A3F32BE2919E00391114 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		149EE2DC2BE2939600C89174 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 		14A2A3EC2BE2919D00391114 /* PhoneDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDemoAppApp.swift; sourceTree = "<group>"; };
 		14A2A3F12BE2919D00391114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		149EE2DB2BE2934D00C89174 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				149EE2DC2BE2939600C89174 /* WhatsNewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		14A2A3E32BE2919D00391114 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		14A2A3EE2BE2919D00391114 /* PhoneDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				149EE2DB2BE2934D00C89174 /* View */,
 				14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */,
 				14A2A3F12BE2919D00391114 /* ContentView.swift */,
 				14A2A3F32BE2919E00391114 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				14A2A3F22BE2919D00391114 /* ContentView.swift in Sources */,
 				14A2A3F02BE2919D00391114 /* PhoneDemoAppApp.swift in Sources */,
+				149EE2DD2BE2939600C89174 /* WhatsNewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
