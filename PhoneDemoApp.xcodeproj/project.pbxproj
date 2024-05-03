@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14007F782BE51794006A6434 /* AboutMeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F772BE51793006A6434 /* AboutMeContentView.swift */; };
+		14007F7A2BE517AF006A6434 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F792BE517AF006A6434 /* HomeView.swift */; };
+		14007F7D2BE518AE006A6434 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F7C2BE518AE006A6434 /* Info.swift */; };
+		14007F7F2BE51B5F006A6434 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F7E2BE51B5F006A6434 /* StoryView.swift */; };
+		14007F812BE522CC006A6434 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F802BE522CC006A6434 /* FavoriteView.swift */; };
+		14007F832BE52530006A6434 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F822BE52530006A6434 /* FunFactsView.swift */; };
 		1421EDBC2BE3E5F500D41099 /* SubscriptionOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1421EDBB2BE3E5F500D41099 /* SubscriptionOptionsView.swift */; };
 		149EE2DD2BE2939600C89174 /* WhatsNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149EE2DC2BE2939600C89174 /* WhatsNewView.swift */; };
 		14A2A3F02BE2919D00391114 /* PhoneDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */; };
-		14A2A3F22BE2919D00391114 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A3F12BE2919D00391114 /* ContentView.swift */; };
+		14A2A3F22BE2919D00391114 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2A3F12BE2919D00391114 /* HelloView.swift */; };
 		14A2A3F42BE2919E00391114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A2A3F32BE2919E00391114 /* Assets.xcassets */; };
 		14A2A3F72BE2919E00391114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A2A3F62BE2919E00391114 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14007F772BE51793006A6434 /* AboutMeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeContentView.swift; sourceTree = "<group>"; };
+		14007F792BE517AF006A6434 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14007F7C2BE518AE006A6434 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		14007F7E2BE51B5F006A6434 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		14007F802BE522CC006A6434 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		14007F822BE52530006A6434 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 		1421EDBB2BE3E5F500D41099 /* SubscriptionOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionOptionsView.swift; sourceTree = "<group>"; };
 		149EE2DC2BE2939600C89174 /* WhatsNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewView.swift; sourceTree = "<group>"; };
 		14A2A3EC2BE2919D00391114 /* PhoneDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDemoAppApp.swift; sourceTree = "<group>"; };
-		14A2A3F12BE2919D00391114 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14A2A3F12BE2919D00391114 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
 		14A2A3F32BE2919E00391114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A2A3F62BE2919E00391114 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,11 +48,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14007F7B2BE518A0006A6434 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				14007F7C2BE518AE006A6434 /* Info.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		149EE2DB2BE2934D00C89174 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14A2A3F12BE2919D00391114 /* HelloView.swift */,
 				149EE2DC2BE2939600C89174 /* WhatsNewView.swift */,
 				1421EDBB2BE3E5F500D41099 /* SubscriptionOptionsView.swift */,
+				14007F772BE51793006A6434 /* AboutMeContentView.swift */,
+				14007F822BE52530006A6434 /* FunFactsView.swift */,
+				14007F802BE522CC006A6434 /* FavoriteView.swift */,
+				14007F7E2BE51B5F006A6434 /* StoryView.swift */,
+				14007F792BE517AF006A6434 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -64,9 +90,9 @@
 		14A2A3EE2BE2919D00391114 /* PhoneDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				14007F7B2BE518A0006A6434 /* Data */,
 				149EE2DB2BE2934D00C89174 /* View */,
 				14A2A3EF2BE2919D00391114 /* PhoneDemoAppApp.swift */,
-				14A2A3F12BE2919D00391114 /* ContentView.swift */,
 				14A2A3F32BE2919E00391114 /* Assets.xcassets */,
 				14A2A3F52BE2919E00391114 /* Preview Content */,
 			);
@@ -152,9 +178,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1421EDBC2BE3E5F500D41099 /* SubscriptionOptionsView.swift in Sources */,
-				14A2A3F22BE2919D00391114 /* ContentView.swift in Sources */,
+				14A2A3F22BE2919D00391114 /* HelloView.swift in Sources */,
+				14007F782BE51794006A6434 /* AboutMeContentView.swift in Sources */,
+				14007F7A2BE517AF006A6434 /* HomeView.swift in Sources */,
 				14A2A3F02BE2919D00391114 /* PhoneDemoAppApp.swift in Sources */,
 				149EE2DD2BE2939600C89174 /* WhatsNewView.swift in Sources */,
+				14007F832BE52530006A6434 /* FunFactsView.swift in Sources */,
+				14007F7F2BE51B5F006A6434 /* StoryView.swift in Sources */,
+				14007F812BE522CC006A6434 /* FavoriteView.swift in Sources */,
+				14007F7D2BE518AE006A6434 /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
